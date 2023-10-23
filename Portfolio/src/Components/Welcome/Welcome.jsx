@@ -4,7 +4,7 @@ export function Welcome() {
 
     return (
         <section className={WelcomeStyling.landing}>
-            <h1>Hey, I'm Mads</h1>
+            <h1>Hey</h1>
             <p>My name is Mads Serritslev. I am trying out web development
             </p>
             <p> and this is my first portfolio.</p>

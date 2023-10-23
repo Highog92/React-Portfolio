@@ -1,4 +1,7 @@
 .landing{
+    display: grid;
+    place-content: center;
+    // min-height: 100vh;
 
     h1{
         font-family:'Concert One',  Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
