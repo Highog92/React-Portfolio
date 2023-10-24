@@ -8,10 +8,8 @@ export function MainLayout() {
     return (
         <>
             <Navigation />
-            <Welcome />
-            {/* <GradientButton /> */}
-
             <Outlet />
+            {/* <GradientButton /> */}
 
         </>
 

@@ -1,9 +1,12 @@
+import { ContactMe } from "../Components/ContactMe.jsx/ContactMe"
+
+
 export function Projects() {
 
-    return (
-        <section>
+  return (
+    <section>
 
-      </section>
-    )
+<ContactMe/>
+    </section>
+  )
 }
- 

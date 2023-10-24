@@ -1,5 +1,5 @@
 import WelcomeStyling from './Welcome.module.scss'
-
+import { ContactMe } from '../ContactMe.jsx/ContactMe'
 export function Welcome() {
 
     return (
@@ -9,7 +9,7 @@ export function Welcome() {
             </p>
             <p> and this is my first portfolio.</p>
             <p>If anything goes well, I will graduate late February 2024.</p>
-            <button>Contact Me</button>
+            <ContactMe />
         </section>
     )
 }
