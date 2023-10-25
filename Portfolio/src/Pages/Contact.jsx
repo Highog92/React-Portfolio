@@ -1,8 +1,10 @@
+import { ContactMe } from "../Components/ContactMe.jsx/ContactMe"
+
 export function Contact() {
 
-    return (
-        <section>
-
-      </section>
-    )
+  return (
+    <section>
+      <ContactMe />
+    </section>
+  )
 }

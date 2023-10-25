@@ -1,4 +1,3 @@
-import './Global.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { About } from './Pages/About';
 import { Projects } from './Pages/Projects';

@@ -1,8 +1,10 @@
+import style from './ContackMe.module.scss'
+
 export function ContactMe() {
 
     return (
-        <section>
-            <button>Contact Me</button>
-        </section>
+        <>
+            <button className={style.ContactMeBtn}>Contact Me</button>
+        </>
     )
 }

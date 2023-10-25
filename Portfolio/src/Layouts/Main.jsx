@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { Navigation } from '../Components/Navigation/Navigation';
-import { Welcome } from '../Components/Welcome/Welcome';
+import { MobileSideBar } from '../Components/Navigation/MobileSideBar';
 // import GradientButton from './Components/GlowingButton/Special'
 
 export function MainLayout() {
@@ -8,6 +8,7 @@ export function MainLayout() {
     return (
         <>
             <Navigation />
+            <MobileSideBar />
             <Outlet />
             {/* <GradientButton /> */}
 
