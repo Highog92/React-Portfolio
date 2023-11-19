@@ -4,6 +4,7 @@ export function Contact() {
 
   return (
     <section>
+      <p>Kontakt mig</p>
       <ContactMe />
     </section>
   )

@@ -1,21 +1,19 @@
-import burgerNavStyle from './BugerNav.module.scss'
 import { Link } from 'react-router-dom';
+import navStyle from './navigation.module.scss'
 
-const BurgerMenu = ({ isOpen, toggleMenu }) => {
 
 export function Navigation() {
 
-    return (
-        <section className={`burger-menu ${isOpen ? "open" : ""}`} className={burgerNavStyle.navigation}>
-            <nav className="hamburger-icon" onClick={toggleMenu}>>
-                <Link to='/'><h2>M<span>.</span></h2> </Link>
-                <ul>
-                    <Link to='/about'><li>About</li></Link>
-                    <Link to='/projects'><li>Projects</li></Link>
-                    <Link to='/contact'><li>Contact</li></Link>
-                </ul>
-            </nav>
-        </section>
-    )
-}
-}
+        return (
+            <section className={navStyle.navigation}>
+                <nav>
+                    <Link to='/welcome'><h2>MS<span>.</span></h2> </Link>
+                    <ul>
+                        <Link to='/about'><li>CV</li></Link>
+                        <Link to='/projects'><li>Projekter</li></Link>
+                        <Link to='/contact'><li>Kontakt</li></Link>
+                    </ul>
+                </nav>
+            </section>
+        )
+    }

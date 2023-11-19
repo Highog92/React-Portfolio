@@ -3,7 +3,7 @@ import { About } from './Pages/About';
 import { Projects } from './Pages/Projects';
 import { Contact } from './Pages/Contact';
 import { MainLayout } from './Layouts/Main';
-import { Welcome } from './Components/Welcome/Welcome';
+import { Welcome } from "./Pages/Welcome";
 
 
 function App() {
@@ -12,14 +12,14 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainLayout title='Home' />} >
-            <Route path="/" element={<Welcome title='Welcome' />} />
-            <Route path="/about" element={<About title='About' />} />
-            <Route path="/projects" element={<Projects title='Projects' />} />
-            <Route path="/contact" element={<Contact title='Contact' />} />
+          <Route path="/" element={<MainLayout title='Home' />}>
+            <Route path="/welcome" index element={<Welcome title='Welcome' />} />
+            <Route path="/about" index element={<About title='About' />} />
+            <Route path="/projects" index element={<Projects title='Projects' />} />
+            <Route path="/contact" index element={<Contact title='Contact' />} />
           </Route>
         </Routes>
-      </BrowserRouter >
+      </BrowserRouter>
     </>
   )
 }
