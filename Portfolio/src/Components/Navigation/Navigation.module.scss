@@ -1,5 +1,4 @@
 .navigation {
-
     display: flex;
     flex-direction: column;
     width: 120px;
@@ -23,12 +22,17 @@
     }
 
     h2 {
-        font-size: 4rem;
+        display: flex;
+        font-size: 3rem;
         color: #E3E3E3;
-        background-color: rgba(12, 10, 10, 0.753);
-        border-radius: 2rem;
+        background-color: rgba(36, 36, 36);
+        border-radius: 1.5rem;
         height: 100px;
         width: 100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    
     }
 
     span {
@@ -49,6 +53,37 @@
     }
 }
 
+navigation::before,
+navigation::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  display: block;
+  background-color: deeppink;
+  transition: all 250ms ease-in-out;
+}
 
+navigation::before {
+  width: 2px;
+  height: 100px;
+  box-shadow: 298px 0 deeppink;
+}
+
+navigation::after {
+  height: 2px;
+  width: 300px;
+  box-shadow: 0 98px deeppink;
+}
+
+navigation:hover::before {
+  left: -10px;
+  box-shadow: 318px 0 deeppink;
+}
+
+navigation:hover::after {
+  top: -10px;
+  box-shadow: 0 118px deeppink;
+}
 
 
