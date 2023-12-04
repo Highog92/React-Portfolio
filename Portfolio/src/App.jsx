@@ -12,7 +12,8 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainLayout title='Home' />}>
+          <Route path="/" element={<MainLayout title='Homepage' />}>
+            <Route path="/" element={<Welcome title="Homepage" />} />
             <Route path="/welcome" index element={<Welcome title='Welcome' />} />
             <Route path="/about" index element={<About title='About' />} />
             <Route path="/projects" index element={<Projects title='Projects' />} />
