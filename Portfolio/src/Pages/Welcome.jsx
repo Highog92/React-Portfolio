@@ -1,4 +1,4 @@
-import WelcomeStyling from './Welcome.module.scss'
+import WelcomeStyling from './styles/Welcome.module.scss'
 import { ContactMe } from '../Components/ContactMe.jsx/ContactMe'
 
 export function Welcome() {

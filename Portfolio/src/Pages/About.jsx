@@ -5,9 +5,7 @@ export function About() {
   return (
     <section>
 
-
-
-<h2>Language knowledge</h2>
+      <h2>Sprog kendskab</h2>
       <button>html</button>
       <button>css</button>
       <button>sass</button>
@@ -15,10 +13,12 @@ export function About() {
       <button>Vite+React</button>
       <button>node.js</button>
       <button>SQL</button>
+      <button>Umbraco</button>
+      <button>DynamicWeb</button>
 
-<hr />
+      <hr />
 
-      <h2>Profile</h2>
+      <h2>Profil</h2>
       <p>Mesterudlært lager og logistik operatør i 2019.</p>
       <p>Omstillings parat.</p>
       <p>Service minded.</p>
@@ -94,6 +94,7 @@ export function About() {
       <p>2012 – 2013 	Optaget på selve Erhvervsgrunduddannelsen.</p>
       <p>2011 – 2012 	Forskolen til Erhvervsgrunduddannelsen (EGU) i Viborg.</p>
 
+      <p>Nysgerrig?</p>
       <ContactMe />
     </section>
   )
