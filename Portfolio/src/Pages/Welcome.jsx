@@ -1,10 +1,10 @@
-import WelcomeStyling from './styles/Welcome.module.scss'
+import welcomeStyling from './styles/Welcome.module.scss'
 import { ContactMe } from '../Components/ContactMe.jsx/ContactMe'
 
 export function Welcome() {
 
     return (
-        <section className={WelcomeStyling.landing}>
+        <section className={welcomeStyling.landing}>
             <h1>Hey</h1>
             <p>Velkommen til min portfolio</p>
             <p>Mit navn er Mads Serritslev. Jeg er ved at uddanne mig til webudvikler</p>
