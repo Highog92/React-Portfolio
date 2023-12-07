@@ -92,6 +92,7 @@ export function About() {
 
       <hr />
       <section>
+
         <h2>Uddannelse</h2>
         <p>2022 – 2024	08/08 start på webudvikler uddannelsen.</p>
         <p>2015 – 2019	Udlært Lager- og logistik operatør d. 30. marts 2019.</p>
@@ -101,7 +102,7 @@ export function About() {
         <p>2012 – 2013 	Optaget på selve Erhvervsgrunduddannelsen.</p>
         <p>2011 – 2012 	Forskolen til Erhvervsgrunduddannelsen (EGU) i Viborg.</p>
 
-        
+
         <p>Nysgerrig?</p>
         <ContactMe />
       </section>
