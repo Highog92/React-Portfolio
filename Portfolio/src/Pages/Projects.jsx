@@ -2,7 +2,9 @@ export function Projects() {
 
   return (
     <section>
-      <p>Projekter</p>
+      <h2>Projekter</h2>
+
+      
     </section>
   )
 }
