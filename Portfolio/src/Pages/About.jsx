@@ -1,4 +1,4 @@
-import { ContactMe } from "../Components/ContactMe.jsx/ContactMe"
+import { Button } from "../Components/Button/Button"
 import aboutStyle from "./Styles/About.module.scss"
 export function About() {
 
@@ -104,7 +104,8 @@ export function About() {
 
 
         <p>Nysgerrig?</p>
-        <ContactMe />
+        <Button
+          text={"Kontakt Mig"} />
       </section>
     </section>
   )

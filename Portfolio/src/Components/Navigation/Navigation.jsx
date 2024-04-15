@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import navStyle from './navigation.module.scss'
-
+import { Socials } from '../Socials/Socials';
 
 export function Navigation() {
 
@@ -11,7 +11,7 @@ export function Navigation() {
                     <ul>
                         <Link to='/about'><li>CV</li></Link>
                         <Link to='/projects'><li>Projekter</li></Link>
-                        <Link to='/contact'><li>Kontakt</li></Link>
+                        <Socials/>
                     </ul>
                 </nav>
             </section>

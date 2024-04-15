@@ -1,7 +1,5 @@
 import { Outlet } from 'react-router-dom';
 import { Navigation } from '../Components/Navigation/Navigation';
-// import GradientButton from './Components/GlowingButton/Special'
-
 export function MainLayout() {
 
     // Her skal der ligge det som skal vises alle pages
@@ -11,7 +9,6 @@ export function MainLayout() {
         <>
             <Navigation />
             <Outlet />
-            {/* <GradientButton /> */}
         </>
 
     )
